@@ -143,10 +143,10 @@ class Dashboard extends BaseController
 
                          $config = Array(
                                 'protocol' => 'smtp',
-                                    'smtp_host' => 'mail.buonogroup.com',
+                                    'smtp_host' => 'mail.ex.com', //hostmail
                                     'smtp_port' => 25,
-                                    'smtp_user' => 'chaloemphong@buonogroup.com',
-                                    'smtp_pass' => 'Buono!123456',
+                                    'smtp_user' => 'chaloemphong@gmail.com', //user
+                                    'smtp_pass' => 'password', //password
                                     'mailtype'  => 'html', 
                                     'charset' => 'utf-8',
                                     'wordwrap' => TRUE
